@@ -46,12 +46,13 @@ Press Ctrl+C to stop execution and close the GUI.
 Both are updated in real-time after each accumulation cycle.
 
 ## 🧪 Parameters
-Parameter | Description | Default
-ACCUMULATIONS | Number of FFT snapshots to average | 1000
-MAX_BIN | Use maximum bin of the spectrum (True) or a fixed bin (False) | True
-BIN_NUMBER | FFT bin index to analyze if MAX_BIN = False | 51
-bitstream_path | Path to your FPGA .fpg file | (edit this value directly in script)
-fft_snap_block | Name of the snapshot block in the design | adc_voltage_filtered_snap2_ss
+
+| Parameter        | Description                                | Default                             |
+|------------------|--------------------------------------------|-------------------------------------|
+| `ACCUMULATIONS`  | Number of FFT snapshots to average         | `1000`                              |
+| `bitstream_path` | Path to your FPGA `.fpg` file              | *(edit this value directly in script)* |
 | `fft_snap_block` | Name of the snapshot block in the design   | `adc_voltage_filtered_snap2_ss`     |
+| `MAX_BIN` | Use maximum bin of the spectrum (True) or a fixed bin (False)   | `True`     |
+| `BIN_NUMBER` | FFT bin index to analyze if MAX_BIN = False   | `51 (for 50MHz)`     |
 
 
