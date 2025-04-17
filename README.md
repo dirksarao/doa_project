@@ -45,8 +45,8 @@ Press Ctrl+C to stop execution and close the GUI.
 Both are updated in real-time after each accumulation cycle.
 
 ## 🧪 Parameters
-**Parameter**		**Description**				**Default**
-ACCUMULATIONS		Number of FFT snapshots to average		1000
-bitstream_path		Path to your FPGA .fpg file			(edit in script)
-fft_snap_block		Name of the snapshot block in the design	adc_voltage_filtered_snap2_ss (hardcoded)
+Parameter | Description | Default
+ACCUMULATIONS | Number of FFT snapshots to average | 1000
+bitstream_path | Path to your FPGA .fpg file | (edit in script)
+fft_snap_block | Name of the snapshot block in the design | adc_voltage_filtered_snap2_ss (hardcoded)
 
