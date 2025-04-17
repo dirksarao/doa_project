@@ -45,6 +45,8 @@ Press Ctrl+C to stop execution and close the GUI.
 
 Both are updated in real-time after each accumulation cycle.
 
+---
+
 ## 🧪 Parameters
 
 | Parameter        | Description                                | Default                             |
